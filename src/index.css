@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.table-container {
+  display: flex;                     /* Use Flexbox for centering */
+  flex-direction: column;            /* Stack items vertically */
+  justify-content: center;           /* Center items vertically */
+  align-items: center;               /* Center items horizontally */
+  height: 100vh;
+  width: 100%;               
+  border: 1px solid red;      
+  background-color: purple;
+}
+.App table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+ 
+  height: 50px;
+  
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button {
+  margin: 10px; /* Space between buttons */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Hover effect */
+}
